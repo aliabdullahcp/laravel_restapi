@@ -1,2 +1,10 @@
 composer create-project laravel/laravel rest-api
+
+
 php artisan serve
+
+php artisan make:model Product --migration
+php artisan migrate
+
+
+php artisan make:controller ProductController --api
